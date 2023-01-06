@@ -17,12 +17,11 @@
         <Shell>
             <TabBar>
                 <Tab Title="pageone" Icon="dotnet_bot.svg">
-                    <ShellContent ContentTemplate="{DataTemplate localx:tabPage}"/>
+                    <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
                 </Tab>
                 <Tab Title="pagetwo" Icon="dotnet_bot.svg">
                     <ShellContent ContentTemplate="{DataTemplate localx:tabPage}"/>
                 </Tab>
-                
             </TabBar>
         </Shell>
     </Application.MainPage>
